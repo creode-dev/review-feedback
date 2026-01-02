@@ -12,7 +12,7 @@ const COLORS = {
 const CreodePurpose = () => {
   const values = [
     {
-      title: 'Own It',
+      title: 'Be Accountable',
       icon: CheckCircle,
       color: '#4CAF50',
       principles: [
@@ -23,7 +23,7 @@ const CreodePurpose = () => {
       ]
     },
     {
-      title: 'Solve, Don\'t Shift',
+      title: 'Solve Problems',
       icon: Lightbulb,
       color: '#FF9800',
       principles: [
@@ -34,7 +34,7 @@ const CreodePurpose = () => {
       ]
     },
     {
-      title: 'Make It Count',
+      title: 'Have Impact',
       icon: TrendingUp,
       color: COLORS.coral,
       principles: [
