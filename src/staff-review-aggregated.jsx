@@ -154,7 +154,7 @@ const StaffReviewDashboard = () => {
         {/* Header */}
         <div style={{ marginBottom: '40px' }}>
           <h1 style={{ margin: '0 0 8px 0', color: COLORS.darkGrey, fontSize: '38px', fontWeight: '700' }}>
-            Staff Review Analysis
+            Team Feedback
           </h1>
           <p style={{ margin: 0, color: '#666', fontSize: '18px' }}>
             October 2025
@@ -178,7 +178,7 @@ const StaffReviewDashboard = () => {
           <ResponsiveContainer width="100%" height={350}>
             <BarChart data={categoryAverages} layout="vertical">
               <CartesianGrid strokeDasharray="3 3" stroke={COLORS.borderGrey} />
-              <XAxis type="number" domain={[0, 10]} tick={{ fill: COLORS.darkGrey, fontSize: 18 }} />
+              <XAxis type="number" domain={[0, 8]} tick={{ fill: COLORS.darkGrey, fontSize: 18 }} />
               <YAxis dataKey="category" type="category" width={180} tick={{ fill: COLORS.darkGrey, fontSize: 18 }} />
               <Tooltip contentStyle={{ background: COLORS.white, border: `1px solid ${COLORS.borderGrey}`, borderRadius: '8px', fontSize: '18px' }} />
               <Bar dataKey="score" radius={[0, 8, 8, 0]}>

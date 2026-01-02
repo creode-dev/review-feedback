@@ -332,7 +332,7 @@ const Dashboard360 = () => {
             <BarChart data={companyScores}>
               <CartesianGrid strokeDasharray="3 3" stroke={COLORS.borderGrey} />
               <XAxis dataKey="category" tick={{ fill: COLORS.darkGrey, fontSize: 18 }} angle={-45} textAnchor="end" height={100} />
-              <YAxis domain={[0, 10]} tick={{ fill: COLORS.darkGrey, fontSize: 18 }} />
+              <YAxis domain={[0, 8]} tick={{ fill: COLORS.darkGrey, fontSize: 18 }} />
               <Tooltip contentStyle={{ background: COLORS.white, border: `1px solid ${COLORS.borderGrey}`, borderRadius: '8px', fontSize: '18px' }} />
               <Bar dataKey="avg" radius={[8, 8, 0, 0]}>
                 {companyScores.map((entry, index) => (

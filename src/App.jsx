@@ -54,7 +54,7 @@ function App() {
               onClick={() => setView('staff')}
               style={navButtonStyle(view === 'staff')}
             >
-              Review Analysis
+              Team Feedback
             </button>
             <button 
               onClick={() => setView('directors')}

@@ -33,7 +33,7 @@ Two React-based visualisation dashboards for analysing employee feedback data us
 - Distribution charts for score analysis
 - Colour-coded severity indicators
 
-### 2. Staff Review Analysis (`staff-review-aggregated.jsx`)
+### 2. Team Feedback (`staff-review-aggregated.jsx`)
 
 **Purpose:** Aggregate and anonymised feedback analysis showing systemic issues without individual attribution.
 
