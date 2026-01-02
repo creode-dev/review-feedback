@@ -49,11 +49,6 @@ const ActionPlanDashboard = () => {
       color: '#FF9800',
       items: [
         {
-          action: 'Annual Pay Rises',
-          status: 'implemented',
-          description: 'Annual pay rises implemented (June cycle)'
-        },
-        {
           action: 'Annual Pay Reviews',
           status: 'implemented',
           description: 'Structured annual pay reviews (June cycle)'
