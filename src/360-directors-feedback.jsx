@@ -152,8 +152,8 @@ const Dashboard360 = () => {
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'start', marginBottom: '16px' }}>
         <div>
-          <h3 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '24px', fontWeight: '700' }}>{name}</h3>
-          <p style={{ margin: '4px 0 0 0', color: '#666', fontSize: '14px' }}>{data.role}</p>
+          <h3 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '26px', fontWeight: '700' }}>{name}</h3>
+          <p style={{ margin: '4px 0 0 0', color: '#666', fontSize: '18px' }}>{data.role}</p>
         </div>
         <div style={{
           width: '48px',
@@ -171,7 +171,7 @@ const Dashboard360 = () => {
       <div style={{ marginBottom: '16px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
           <ThumbsUp size={16} color='#4CAF50' />
-          <span style={{ fontSize: '12px', fontWeight: '600', color: COLORS.darkGrey }}>TOP STRENGTHS</span>
+          <span style={{ fontSize: '18px', fontWeight: '600', color: COLORS.darkGrey }}>TOP STRENGTHS</span>
         </div>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
           {data.themes.positive.slice(0, 4).map((theme, idx) => (
@@ -180,7 +180,7 @@ const Dashboard360 = () => {
               color: '#2E7D32',
               padding: '4px 10px',
               borderRadius: '12px',
-              fontSize: '11px',
+              fontSize: '18px',
               fontWeight: '600'
             }}>
               {theme}
@@ -192,7 +192,7 @@ const Dashboard360 = () => {
       <div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
           <TrendingUp size={16} color={COLORS.coral} />
-          <span style={{ fontSize: '12px', fontWeight: '600', color: COLORS.darkGrey }}>DEVELOPMENT AREAS</span>
+          <span style={{ fontSize: '18px', fontWeight: '600', color: COLORS.darkGrey }}>DEVELOPMENT AREAS</span>
         </div>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
           {data.themes.negative.slice(0, 4).map((theme, idx) => (
@@ -201,7 +201,7 @@ const Dashboard360 = () => {
               color: '#E65100',
               padding: '4px 10px',
               borderRadius: '12px',
-              fontSize: '11px',
+              fontSize: '18px',
               fontWeight: '600'
             }}>
               {theme}
@@ -215,7 +215,7 @@ const Dashboard360 = () => {
         padding: '12px',
         background: COLORS.lightGrey,
         borderRadius: '8px',
-        fontSize: '12px',
+        fontSize: '18px',
         color: '#666',
         textAlign: 'center'
       }}>
@@ -235,22 +235,22 @@ const Dashboard360 = () => {
           borderRadius: '8px',
           cursor: 'pointer',
           marginBottom: '24px',
-          fontSize: '14px'
+          fontSize: '18px'
         }}
       >
         ← Back to Overview
       </button>
 
       <div style={{ marginBottom: '32px' }}>
-        <h2 style={{ margin: '0 0 8px 0', color: COLORS.darkGrey, fontSize: '32px' }}>{name}</h2>
-        <p style={{ margin: 0, color: '#666', fontSize: '16px' }}>{data.role}</p>
+        <h2 style={{ margin: '0 0 8px 0', color: COLORS.darkGrey, fontSize: '34px' }}>{name}</h2>
+        <p style={{ margin: 0, color: '#666', fontSize: '18px' }}>{data.role}</p>
       </div>
 
       {/* Strengths */}
       <div style={{ marginBottom: '32px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
           <ThumbsUp size={24} color='#4CAF50' />
-          <h3 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '20px' }}>What {name} Does Particularly Well</h3>
+          <h3 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '22px' }}>What {name} Does Particularly Well</h3>
         </div>
         <div style={{ display: 'grid', gap: '12px' }}>
           {data.strengths.map((strength, idx) => (
@@ -259,7 +259,7 @@ const Dashboard360 = () => {
               padding: '16px',
               borderRadius: '8px',
               borderLeft: `4px solid #4CAF50`,
-              fontSize: '14px',
+              fontSize: '18px',
               lineHeight: '1.6',
               color: COLORS.darkGrey
             }}>
@@ -273,7 +273,7 @@ const Dashboard360 = () => {
       <div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
           <TrendingUp size={24} color={COLORS.coral} />
-          <h3 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '20px' }}>What {name} Could Improve On</h3>
+          <h3 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '22px' }}>What {name} Could Improve On</h3>
         </div>
         <div style={{ display: 'grid', gap: '12px' }}>
           {data.improvements.map((improvement, idx) => (
@@ -282,7 +282,7 @@ const Dashboard360 = () => {
               padding: '16px',
               borderRadius: '8px',
               borderLeft: `4px solid ${COLORS.coral}`,
-              fontSize: '14px',
+              fontSize: '18px',
               lineHeight: '1.6',
               color: COLORS.darkGrey
             }}>
@@ -309,10 +309,10 @@ const Dashboard360 = () => {
       <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
         {/* Header */}
         <div style={{ marginBottom: '40px' }}>
-          <h1 style={{ margin: '0 0 8px 0', color: COLORS.darkGrey, fontSize: '36px', fontWeight: '700' }}>
+          <h1 style={{ margin: '0 0 8px 0', color: COLORS.darkGrey, fontSize: '38px', fontWeight: '700' }}>
             Director Feedback
           </h1>
-          <p style={{ margin: 0, color: '#666', fontSize: '16px' }}>
+          <p style={{ margin: 0, color: '#666', fontSize: '18px' }}>
             Anonymous feedback • November 2024
           </p>
         </div>
@@ -325,15 +325,15 @@ const Dashboard360 = () => {
           border: `1px solid ${COLORS.borderGrey}`,
           marginBottom: '32px'
         }}>
-          <h2 style={{ margin: '0 0 24px 0', color: COLORS.darkGrey, fontSize: '24px', fontWeight: '600' }}>
+          <h2 style={{ margin: '0 0 24px 0', color: COLORS.darkGrey, fontSize: '26px', fontWeight: '600' }}>
             Company-Wide Scores
           </h2>
           <ResponsiveContainer width="100%" height={300}>
             <BarChart data={companyScores}>
               <CartesianGrid strokeDasharray="3 3" stroke={COLORS.borderGrey} />
-              <XAxis dataKey="category" tick={{ fill: COLORS.darkGrey, fontSize: 12 }} angle={-45} textAnchor="end" height={100} />
-              <YAxis domain={[0, 10]} tick={{ fill: COLORS.darkGrey }} />
-              <Tooltip contentStyle={{ background: COLORS.white, border: `1px solid ${COLORS.borderGrey}`, borderRadius: '8px' }} />
+              <XAxis dataKey="category" tick={{ fill: COLORS.darkGrey, fontSize: 18 }} angle={-45} textAnchor="end" height={100} />
+              <YAxis domain={[0, 10]} tick={{ fill: COLORS.darkGrey, fontSize: 18 }} />
+              <Tooltip contentStyle={{ background: COLORS.white, border: `1px solid ${COLORS.borderGrey}`, borderRadius: '8px', fontSize: '18px' }} />
               <Bar dataKey="avg" radius={[8, 8, 0, 0]}>
                 {companyScores.map((entry, index) => (
                   <Cell key={`cell-${index}`} fill={entry.avg < 4 ? COLORS.coral : entry.avg < 6 ? '#FFC107' : '#4CAF50'} />
@@ -345,7 +345,7 @@ const Dashboard360 = () => {
 
         {/* Director Cards */}
         <div style={{ marginBottom: '32px' }}>
-          <h2 style={{ margin: '0 0 24px 0', color: COLORS.darkGrey, fontSize: '24px', fontWeight: '600' }}>
+          <h2 style={{ margin: '0 0 24px 0', color: COLORS.darkGrey, fontSize: '26px', fontWeight: '600' }}>
             Individual Director Feedback (Click for Details)
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '24px' }}>
@@ -364,7 +364,7 @@ const Dashboard360 = () => {
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '24px' }}>
             <MessageSquare size={24} color={COLORS.coral} />
-            <h2 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '24px', fontWeight: '600' }}>
+            <h2 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '26px', fontWeight: '600' }}>
               What The Management Team Should Know
             </h2>
           </div>
@@ -375,7 +375,7 @@ const Dashboard360 = () => {
                 padding: '16px',
                 borderRadius: '8px',
                 borderLeft: `4px solid ${COLORS.coral}`,
-                fontSize: '14px',
+                fontSize: '18px',
                 lineHeight: '1.6',
                 color: COLORS.darkGrey
               }}>

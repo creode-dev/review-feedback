@@ -154,7 +154,7 @@ const ActionPlanDashboard = () => {
         color: config.color,
         padding: '4px 12px',
         borderRadius: '20px',
-        fontSize: '11px',
+        fontSize: '18px',
         fontWeight: '600',
         textTransform: 'uppercase'
       }}>
@@ -174,10 +174,10 @@ const ActionPlanDashboard = () => {
       <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
         {/* Header */}
         <div style={{ marginBottom: '40px' }}>
-          <h1 style={{ margin: '0 0 8px 0', color: COLORS.darkGrey, fontSize: '36px', fontWeight: '700' }}>
+          <h1 style={{ margin: '0 0 8px 0', color: COLORS.darkGrey, fontSize: '38px', fontWeight: '700' }}>
             What We're Doing About It
           </h1>
-          <p style={{ margin: 0, color: '#666', fontSize: '16px', lineHeight: '1.6', maxWidth: '800px' }}>
+          <p style={{ margin: 0, color: '#666', fontSize: '18px', lineHeight: '1.6', maxWidth: '800px' }}>
             Based on your feedback, here are the actions we've implemented and the work currently in progress. 
             This is an ongoing effort - we're committed to continuous improvement.
           </p>
@@ -197,8 +197,8 @@ const ActionPlanDashboard = () => {
             border: `1px solid ${COLORS.borderGrey}`,
             textAlign: 'center'
           }}>
-            <div style={{ fontSize: '48px', fontWeight: '700', color: '#4CAF50' }}>8</div>
-            <div style={{ fontSize: '14px', color: '#666', marginTop: '4px' }}>Actions Implemented</div>
+            <div style={{ fontSize: '50px', fontWeight: '700', color: '#4CAF50' }}>8</div>
+            <div style={{ fontSize: '18px', color: '#666', marginTop: '4px' }}>Actions Implemented</div>
           </div>
           <div style={{
             background: COLORS.white,
@@ -207,8 +207,8 @@ const ActionPlanDashboard = () => {
             border: `1px solid ${COLORS.borderGrey}`,
             textAlign: 'center'
           }}>
-            <div style={{ fontSize: '48px', fontWeight: '700', color: '#FF9800' }}>5</div>
-            <div style={{ fontSize: '14px', color: '#666', marginTop: '4px' }}>Currently In Progress</div>
+            <div style={{ fontSize: '50px', fontWeight: '700', color: '#FF9800' }}>5</div>
+            <div style={{ fontSize: '18px', color: '#666', marginTop: '4px' }}>Currently In Progress</div>
           </div>
           <div style={{
             background: COLORS.white,
@@ -217,8 +217,8 @@ const ActionPlanDashboard = () => {
             border: `1px solid ${COLORS.borderGrey}`,
             textAlign: 'center'
           }}>
-            <div style={{ fontSize: '48px', fontWeight: '700', color: COLORS.coral }}>5</div>
-            <div style={{ fontSize: '14px', color: '#666', marginTop: '4px' }}>Key Focus Areas</div>
+            <div style={{ fontSize: '50px', fontWeight: '700', color: COLORS.coral }}>5</div>
+            <div style={{ fontSize: '18px', color: '#666', marginTop: '4px' }}>Key Focus Areas</div>
           </div>
         </div>
 
@@ -253,7 +253,7 @@ const ActionPlanDashboard = () => {
                   <h2 style={{
                     margin: 0,
                     color: COLORS.darkGrey,
-                    fontSize: '24px',
+                    fontSize: '26px',
                     fontWeight: '600'
                   }}>
                     {category.category}
@@ -280,7 +280,7 @@ const ActionPlanDashboard = () => {
                           <h3 style={{
                             margin: 0,
                             color: COLORS.darkGrey,
-                            fontSize: '16px',
+                            fontSize: '20px',
                             fontWeight: '600'
                           }}>
                             {item.action}
@@ -290,7 +290,7 @@ const ActionPlanDashboard = () => {
                         <p style={{
                           margin: 0,
                           color: '#666',
-                          fontSize: '14px',
+                          fontSize: '18px',
                           lineHeight: '1.6'
                         }}>
                           {item.description}
@@ -315,7 +315,7 @@ const ActionPlanDashboard = () => {
           <h2 style={{
             margin: '0 0 20px 0',
             color: COLORS.darkGrey,
-            fontSize: '24px',
+            fontSize: '26px',
             fontWeight: '600'
           }}>
             Our Approach
@@ -329,14 +329,14 @@ const ActionPlanDashboard = () => {
               <h3 style={{
                 margin: '0 0 8px 0',
                 color: COLORS.coral,
-                fontSize: '16px',
+                fontSize: '20px',
                 fontWeight: '600'
               }}>
                 Bottom-Up Development
               </h3>
               <p style={{
                 margin: 0,
-                fontSize: '14px',
+                fontSize: '18px',
                 color: '#666',
                 lineHeight: '1.6'
               }}>
@@ -347,14 +347,14 @@ const ActionPlanDashboard = () => {
               <h3 style={{
                 margin: '0 0 8px 0',
                 color: COLORS.coral,
-                fontSize: '16px',
+                fontSize: '20px',
                 fontWeight: '600'
               }}>
                 Culture is Collective
               </h3>
               <p style={{
                 margin: 0,
-                fontSize: '14px',
+                fontSize: '18px',
                 color: '#666',
                 lineHeight: '1.6'
               }}>
@@ -365,14 +365,14 @@ const ActionPlanDashboard = () => {
               <h3 style={{
                 margin: '0 0 8px 0',
                 color: COLORS.coral,
-                fontSize: '16px',
+                fontSize: '20px',
                 fontWeight: '600'
               }}>
                 Continuous Improvement
               </h3>
               <p style={{
                 margin: 0,
-                fontSize: '14px',
+                fontSize: '18px',
                 color: '#666',
                 lineHeight: '1.6'
               }}>
@@ -393,7 +393,7 @@ const ActionPlanDashboard = () => {
           <p style={{
             margin: 0,
             color: '#666',
-            fontSize: '14px',
+            fontSize: '18px',
             lineHeight: '1.6'
           }}>
             Have suggestions for other areas we should address? <br />

@@ -20,7 +20,7 @@ function App() {
     padding: '10px 24px',
     borderRadius: '8px',
     cursor: 'pointer',
-    fontSize: '14px',
+    fontSize: '18px',
     fontWeight: '600',
     whiteSpace: 'nowrap'
   });
@@ -44,7 +44,7 @@ function App() {
         }}>
           <div style={{
             color: COLORS.white,
-            fontSize: '24px',
+            fontSize: '28px',
             fontWeight: '700'
           }}>
             Creode Feedback Analysis

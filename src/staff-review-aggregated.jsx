@@ -153,10 +153,10 @@ const StaffReviewDashboard = () => {
       <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
         {/* Header */}
         <div style={{ marginBottom: '40px' }}>
-          <h1 style={{ margin: '0 0 8px 0', color: COLORS.darkGrey, fontSize: '36px', fontWeight: '700' }}>
+          <h1 style={{ margin: '0 0 8px 0', color: COLORS.darkGrey, fontSize: '38px', fontWeight: '700' }}>
             Staff Review Analysis
           </h1>
-          <p style={{ margin: 0, color: '#666', fontSize: '16px' }}>
+          <p style={{ margin: 0, color: '#666', fontSize: '18px' }}>
             October 2025
           </p>
         </div>
@@ -171,16 +171,16 @@ const StaffReviewDashboard = () => {
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '24px' }}>
             <TrendingUp size={24} color={COLORS.coral} />
-            <h2 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '24px', fontWeight: '600' }}>
+            <h2 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '26px', fontWeight: '600' }}>
               Overall Category Scores
             </h2>
           </div>
           <ResponsiveContainer width="100%" height={350}>
             <BarChart data={categoryAverages} layout="vertical">
               <CartesianGrid strokeDasharray="3 3" stroke={COLORS.borderGrey} />
-              <XAxis type="number" domain={[0, 10]} tick={{ fill: COLORS.darkGrey }} />
-              <YAxis dataKey="category" type="category" width={180} tick={{ fill: COLORS.darkGrey, fontSize: 13 }} />
-              <Tooltip contentStyle={{ background: COLORS.white, border: `1px solid ${COLORS.borderGrey}`, borderRadius: '8px' }} />
+              <XAxis type="number" domain={[0, 10]} tick={{ fill: COLORS.darkGrey, fontSize: 18 }} />
+              <YAxis dataKey="category" type="category" width={180} tick={{ fill: COLORS.darkGrey, fontSize: 18 }} />
+              <Tooltip contentStyle={{ background: COLORS.white, border: `1px solid ${COLORS.borderGrey}`, borderRadius: '8px', fontSize: '18px' }} />
               <Bar dataKey="score" radius={[0, 8, 8, 0]}>
                 {categoryAverages.map((entry, index) => (
                   <Cell key={`cell-${index}`} fill={
@@ -205,7 +205,7 @@ const StaffReviewDashboard = () => {
           }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '24px' }}>
               <Award size={24} color='#4CAF50' />
-              <h2 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '20px', fontWeight: '600' }}>
+              <h2 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '22px', fontWeight: '600' }}>
                 Top Performing Areas
               </h2>
             </div>
@@ -220,10 +220,10 @@ const StaffReviewDashboard = () => {
                   alignItems: 'center'
                 }}>
                   <div style={{ flex: 1 }}>
-                    <div style={{ fontSize: '13px', color: COLORS.darkGrey, fontWeight: '500', marginBottom: '4px' }}>
+                    <div style={{ fontSize: '18px', color: COLORS.darkGrey, fontWeight: '500', marginBottom: '4px' }}>
                       {item.question}
                     </div>
-                    <div style={{ fontSize: '11px', color: '#666', textTransform: 'uppercase', fontWeight: '600' }}>
+                    <div style={{ fontSize: '18px', color: '#666', textTransform: 'uppercase', fontWeight: '600' }}>
                       {item.category}
                     </div>
                   </div>
@@ -233,7 +233,7 @@ const StaffReviewDashboard = () => {
                     padding: '8px 16px',
                     borderRadius: '20px',
                     fontWeight: '700',
-                    fontSize: '16px'
+                    fontSize: '18px'
                   }}>
                     {item.score.toFixed(1)}
                   </div>
@@ -251,7 +251,7 @@ const StaffReviewDashboard = () => {
           }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '24px' }}>
               <AlertCircle size={24} color={COLORS.coral} />
-              <h2 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '20px', fontWeight: '600' }}>
+              <h2 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '22px', fontWeight: '600' }}>
                 Areas Needing Improvement
               </h2>
             </div>
@@ -266,10 +266,10 @@ const StaffReviewDashboard = () => {
                   alignItems: 'center'
                 }}>
                   <div style={{ flex: 1 }}>
-                    <div style={{ fontSize: '13px', color: COLORS.darkGrey, fontWeight: '500', marginBottom: '4px' }}>
+                    <div style={{ fontSize: '18px', color: COLORS.darkGrey, fontWeight: '500', marginBottom: '4px' }}>
                       {item.question}
                     </div>
-                    <div style={{ fontSize: '11px', color: '#666', textTransform: 'uppercase', fontWeight: '600' }}>
+                    <div style={{ fontSize: '18px', color: '#666', textTransform: 'uppercase', fontWeight: '600' }}>
                       {item.category}
                     </div>
                   </div>
@@ -279,7 +279,7 @@ const StaffReviewDashboard = () => {
                     padding: '8px 16px',
                     borderRadius: '20px',
                     fontWeight: '700',
-                    fontSize: '16px'
+                    fontSize: '18px'
                   }}>
                     {item.score.toFixed(1)}
                   </div>
@@ -297,13 +297,13 @@ const StaffReviewDashboard = () => {
           border: `1px solid ${COLORS.borderGrey}`,
           marginBottom: '32px'
         }}>
-          <h2 style={{ margin: '0 0 24px 0', color: COLORS.darkGrey, fontSize: '24px', fontWeight: '600' }}>
+          <h2 style={{ margin: '0 0 24px 0', color: COLORS.darkGrey, fontSize: '26px', fontWeight: '600' }}>
             Key Themes from Feedback
           </h2>
 
           {/* Strengths */}
           <div style={{ marginBottom: '32px' }}>
-            <h3 style={{ margin: '0 0 16px 0', color: '#4CAF50', fontSize: '18px', fontWeight: '600' }}>
+            <h3 style={{ margin: '0 0 16px 0', color: '#4CAF50', fontSize: '20px', fontWeight: '600' }}>
               ✓ What's Working Well
             </h3>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '16px' }}>
@@ -326,10 +326,10 @@ const StaffReviewDashboard = () => {
                         <Icon size={20} color="#4CAF50" />
                       </div>
                       <div style={{ flex: 1 }}>
-                        <h4 style={{ margin: '0 0 8px 0', color: COLORS.darkGrey, fontSize: '16px', fontWeight: '600' }}>
+                        <h4 style={{ margin: '0 0 8px 0', color: COLORS.darkGrey, fontSize: '18px', fontWeight: '600' }}>
                           {theme.theme}
                         </h4>
-                        <p style={{ margin: 0, fontSize: '13px', color: '#666', lineHeight: '1.5' }}>
+                        <p style={{ margin: 0, fontSize: '18px', color: '#666', lineHeight: '1.5' }}>
                           {theme.description}
                         </p>
                       </div>
@@ -342,7 +342,7 @@ const StaffReviewDashboard = () => {
 
           {/* Improvements */}
           <div>
-            <h3 style={{ margin: '0 0 16px 0', color: COLORS.coral, fontSize: '18px', fontWeight: '600' }}>
+            <h3 style={{ margin: '0 0 16px 0', color: COLORS.coral, fontSize: '20px', fontWeight: '600' }}>
               ⚠ What Needs Attention
             </h3>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '16px' }}>
@@ -366,7 +366,7 @@ const StaffReviewDashboard = () => {
                       </div>
                       <div style={{ flex: 1 }}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'start', marginBottom: '8px' }}>
-                          <h4 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '16px', fontWeight: '600' }}>
+                          <h4 style={{ margin: 0, color: COLORS.darkGrey, fontSize: '18px', fontWeight: '600' }}>
                             {theme.theme}
                           </h4>
                           {theme.urgency === 'high' && (
@@ -375,7 +375,7 @@ const StaffReviewDashboard = () => {
                               color: COLORS.white,
                               padding: '2px 8px',
                               borderRadius: '12px',
-                              fontSize: '10px',
+                              fontSize: '18px',
                               fontWeight: '600',
                               textTransform: 'uppercase'
                             }}>
@@ -383,7 +383,7 @@ const StaffReviewDashboard = () => {
                             </span>
                           )}
                         </div>
-                        <p style={{ margin: 0, fontSize: '13px', color: '#666', lineHeight: '1.5' }}>
+                        <p style={{ margin: 0, fontSize: '18px', color: '#666', lineHeight: '1.5' }}>
                           {theme.description}
                         </p>
                       </div>

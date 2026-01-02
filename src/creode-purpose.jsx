@@ -59,14 +59,14 @@ const CreodePurpose = () => {
           <h1 style={{ 
             margin: '0 0 16px 0', 
             color: COLORS.darkGrey, 
-            fontSize: '48px', 
+            fontSize: '50px', 
             fontWeight: '700' 
           }}>
             Creode Purpose
           </h1>
           <p style={{ 
             color: '#666', 
-            fontSize: '18px', 
+            fontSize: '20px', 
             lineHeight: '1.6',
             maxWidth: '700px',
             margin: '0 auto'
@@ -107,7 +107,7 @@ const CreodePurpose = () => {
             </div>
             
             <div style={{
-              fontSize: '14px',
+              fontSize: '18px',
               fontWeight: '700',
               textTransform: 'uppercase',
               color: COLORS.coral,
@@ -117,7 +117,7 @@ const CreodePurpose = () => {
               Vision
             </div>
             <div style={{
-              fontSize: '12px',
+              fontSize: '18px',
               color: '#999',
               marginBottom: '20px',
               fontWeight: '600',
@@ -128,7 +128,7 @@ const CreodePurpose = () => {
             </div>
             <p style={{
               margin: 0,
-              fontSize: '24px',
+              fontSize: '26px',
               lineHeight: '1.5',
               color: COLORS.darkGrey,
               fontWeight: '600'
@@ -162,7 +162,7 @@ const CreodePurpose = () => {
             </div>
             
             <div style={{
-              fontSize: '14px',
+              fontSize: '18px',
               fontWeight: '700',
               textTransform: 'uppercase',
               color: COLORS.coral,
@@ -172,7 +172,7 @@ const CreodePurpose = () => {
               Mission
             </div>
             <div style={{
-              fontSize: '12px',
+              fontSize: '18px',
               color: '#999',
               marginBottom: '20px',
               fontWeight: '600',
@@ -183,7 +183,7 @@ const CreodePurpose = () => {
             </div>
             <p style={{
               margin: 0,
-              fontSize: '24px',
+              fontSize: '26px',
               lineHeight: '1.5',
               color: COLORS.darkGrey,
               fontWeight: '600'
@@ -211,7 +211,7 @@ const CreodePurpose = () => {
             <h2 style={{
               margin: '0 0 8px 0',
               color: COLORS.darkGrey,
-              fontSize: '36px',
+              fontSize: '38px',
               fontWeight: '700'
             }}>
               Values
@@ -219,7 +219,7 @@ const CreodePurpose = () => {
             <p style={{
               margin: 0,
               color: '#666',
-              fontSize: '16px'
+              fontSize: '18px'
             }}>
               How we work
             </p>
@@ -278,7 +278,7 @@ const CreodePurpose = () => {
                   <h3 style={{
                     margin: '0 0 24px 0',
                     color: COLORS.darkGrey,
-                    fontSize: '28px',
+                    fontSize: '30px',
                     fontWeight: '700'
                   }}>
                     {value.title}
@@ -306,7 +306,7 @@ const CreodePurpose = () => {
                         }} />
                         <p style={{
                           margin: 0,
-                          fontSize: '15px',
+                          fontSize: '18px',
                           lineHeight: '1.6',
                           color: COLORS.darkGrey
                         }}>
@@ -331,7 +331,7 @@ const CreodePurpose = () => {
         }}>
           <h2 style={{
             margin: '0 0 24px 0',
-            fontSize: '28px',
+            fontSize: '30px',
             fontWeight: '700',
             textAlign: 'center'
           }}>
@@ -348,14 +348,14 @@ const CreodePurpose = () => {
               <h3 style={{
                 margin: '0 0 12px 0',
                 color: COLORS.coral,
-                fontSize: '18px',
+                fontSize: '20px',
                 fontWeight: '600'
               }}>
                 In Client Work
               </h3>
               <p style={{
                 margin: 0,
-                fontSize: '14px',
+                fontSize: '18px',
                 lineHeight: '1.7',
                 color: '#ddd'
               }}>
@@ -367,14 +367,14 @@ const CreodePurpose = () => {
               <h3 style={{
                 margin: '0 0 12px 0',
                 color: COLORS.coral,
-                fontSize: '18px',
+                fontSize: '20px',
                 fontWeight: '600'
               }}>
                 In Team Culture
               </h3>
               <p style={{
                 margin: 0,
-                fontSize: '14px',
+                fontSize: '18px',
                 lineHeight: '1.7',
                 color: '#ddd'
               }}>
@@ -386,14 +386,14 @@ const CreodePurpose = () => {
               <h3 style={{
                 margin: '0 0 12px 0',
                 color: COLORS.coral,
-                fontSize: '18px',
+                fontSize: '20px',
                 fontWeight: '600'
               }}>
                 In Growth
               </h3>
               <p style={{
                 margin: 0,
-                fontSize: '14px',
+                fontSize: '18px',
                 lineHeight: '1.7',
                 color: '#ddd'
               }}>
@@ -414,7 +414,7 @@ const CreodePurpose = () => {
           border: `1px solid ${COLORS.borderGrey}`
         }}>
           <p style={{
-            fontSize: '20px',
+            fontSize: '22px',
             fontStyle: 'italic',
             color: COLORS.darkGrey,
             lineHeight: '1.7',
