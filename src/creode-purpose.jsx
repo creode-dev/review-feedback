@@ -65,7 +65,6 @@ const CreodePurpose = () => {
             Creode Purpose
           </h1>
           <p style={{ 
-            margin: 0, 
             color: '#666', 
             fontSize: '18px', 
             lineHeight: '1.6',
@@ -415,7 +414,6 @@ const CreodePurpose = () => {
           border: `1px solid ${COLORS.borderGrey}`
         }}>
           <p style={{
-            margin: 0,
             fontSize: '20px',
             fontStyle: 'italic',
             color: COLORS.darkGrey,
